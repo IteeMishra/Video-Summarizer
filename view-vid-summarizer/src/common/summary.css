@@ -1,15 +1,40 @@
-.summary-textbox-class{
-    background-color: whitesmoke;
-    width: 50%;
-    border: 5px solid mediumslateblue;
-    padding: 50px;
-    margin-left: 25%;
-    margin-top: 10px;
-    border-radius: 10px;
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #f0f4fb; /* Same as footer background if desired */
 }
-.summary-header{
-    margin-left: 25%;
-    color: mediumslateblue;
-    font-size: 30px;
-    font-family: monospace;
+
+.summary-header {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #4a4e69; /* Same theme color */
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px solid #6a5acd;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.summary-textbox-class {
+    background-color: #ffffff;
+    width: 70%;
+    max-width: 900px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+    transition: all 0.3s ease;
+    border: 2px solid #6a5acd;
+}
+
+.summary-textbox-class:hover {
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
 }

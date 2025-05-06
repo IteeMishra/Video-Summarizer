@@ -2,7 +2,10 @@ import './summary.css';
 
 function Summary(props) {
     return (
-        <div>
+       <>
+       <br />
+       <br />
+        <div style={{display:'flex',alignItems:'center',justifyContent:'center',flexDirection:'column'}}>
             <div className='summary-header'>
                 Summary
             </div>
@@ -10,6 +13,7 @@ function Summary(props) {
                 {props.summarizedText}
             </div>
         </div>
+        </>
     );
 }
 
